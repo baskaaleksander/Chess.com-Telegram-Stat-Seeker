@@ -6,8 +6,8 @@ from chesscombot import *
 STATSEEKER = range(1)
 
 
-TOKEN: Final = '6718024001:AAEDqgn8VljKmzonf29ScSXeUHT_SSbKh_w'
-BOT_USERNAME: Final = '@chess_statsseekerbot'
+TOKEN: Final = 'BOT_TOKEN'
+BOT_USERNAME: Final = 'NAME OF BOT'
 
 async def start_command(update: Update, context = ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hello! Please provide me the username')
